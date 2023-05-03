@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96bc34fc-46de-4ca9-becd-03c5212b1ee8" name="Changes" comment="initial">
+    <list default="true" id="96bc34fc-46de-4ca9-becd-03c5212b1ee8" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/pages/TransferPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/pages/TransferPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TransferTest.shouldTransferFromFirstToSecond">
+  <component name="RunManager" selected="Gradle.TransferTest.shouldHaveErrorMessageIfAmountMoreThanBalance">
     <configuration name="TransferTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,6 +80,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.netology.test.TransferTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TransferTest.shouldHaveErrorMessageIfAmountMoreThanBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.test.TransferTest.shouldHaveErrorMessageIfAmountMoreThanBalance&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TransferTest.shouldHaveErrorMessageIfAmountMoreThanBalance" />
         <item itemvalue="Gradle.TransferTest.shouldTransferFromFirstToSecond" />
         <item itemvalue="Gradle.TransferTest" />
       </list>
@@ -135,11 +159,19 @@
       <option name="project" value="LOCAL" />
       <updated>1683048528935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="build">
+      <created>1683049410372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683049410373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
 </project>
